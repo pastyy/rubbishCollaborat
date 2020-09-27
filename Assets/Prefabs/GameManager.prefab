@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4221741898709298760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7187499122710944451}
+  - component: {fileID: 1087663874752087565}
+  - component: {fileID: 5645308201726736105}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7187499122710944451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4221741898709298760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 358.75925, y: 207.14665, z: -0.30829084}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1087663874752087565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4221741898709298760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6384e6ac4ad324b2f999a84f45063242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floordelay: 0.1
+  garbagedelay: 10
+  garbagecandelay: 20
+  tooldelay: 16
+  level: 1
+  columns: 12
+  rows: 9
+  garbage:
+  - {fileID: 6451636306417658088, guid: 77f5c77cae007b84781db09809bb653c, type: 3}
+  - {fileID: 6963001388096622813, guid: 64cb50269839ffd45a7e6963aeafb111, type: 3}
+  - {fileID: 494066036351347081, guid: 1e0bd9cf786e8ab40bd14a3cf5709cbd, type: 3}
+  - {fileID: 3359729431832417232, guid: 43b2c9944b745574a9088ae85c02e644, type: 3}
+  - {fileID: 36045587579708561, guid: 124187ac2abd947fa9c036e3d9927420, type: 3}
+  - {fileID: 4242749555313669331, guid: 51de06a8dd8124436ac5ec957853b80c, type: 3}
+  - {fileID: 8642280408039633718, guid: 18c3fc4cdb6da4e0ea7f84fe47081abc, type: 3}
+  - {fileID: 6922261446111588847, guid: b35fbce0b357c45a69f6997081efbc28, type: 3}
+  - {fileID: 5205331158621862091, guid: 9be98a5c82642435890be36ba6d5361f, type: 3}
+  - {fileID: 3812507055524450048, guid: d1bb4df2d6a9943b5a183c31fa390a03, type: 3}
+  - {fileID: 5968074252140326606, guid: 19829efcc818a409ca58036b4a7f6341, type: 3}
+  - {fileID: 6381964826125671073, guid: 9cc1e7c94b91640beb1cab2896d4972d, type: 3}
+  - {fileID: 7162729018490975616, guid: ab67b8d94e379488c8f0735e9fb1c574, type: 3}
+  - {fileID: 5751491905111896143, guid: 3d4ee52ca5d1540f7bbc7640b36bda34, type: 3}
+  - {fileID: 4685827990875317257, guid: a9db3d5ecf10449b0877d43f197d9f07, type: 3}
+  - {fileID: 7509723669623075163, guid: 815f169df01b54a1d9e1f53496718559, type: 3}
+  floortiles:
+  - {fileID: 7892050777871215198, guid: feedced1e778c49b3a2519d2107d2bd9, type: 3}
+  - {fileID: 2352412255537629901, guid: ea635bb684cc041ae8847ac74cc58b59, type: 3}
+  - {fileID: 5460429187466301763, guid: 66518f8db760f4afca3344ab3afed2de, type: 3}
+  - {fileID: 3606709988457842439, guid: db010654e97194420a0d1b778138fd48, type: 3}
+  - {fileID: 4651847430941190850, guid: 26715accf071d441cadd047da9646b19, type: 3}
+  - {fileID: 242525987311886912, guid: 06edf715a946c42cb8ba3e624bb25443, type: 3}
+  - {fileID: 6159859584652418428, guid: 1e999a4274dcd4ffbb14c37d459a897a, type: 3}
+  - {fileID: 5604081225872117297, guid: 4de01cb9dbd2145069ae26b46655c046, type: 3}
+  garbagecan:
+  - {fileID: 5342873403723251396, guid: f769caac5775d4045af2d2aef45f5c55, type: 3}
+  - {fileID: 7339294331305336414, guid: 453dc163e2d5041ec98002f98f29c5b8, type: 3}
+  - {fileID: 8213451356143330531, guid: 13a3c697272b74464ab975cd65f0e84d, type: 3}
+  - {fileID: 4338811735817724464, guid: f2884d94369f14563a94ceb7a3a97b43, type: 3}
+  bag: {fileID: 2607306187827964941, guid: 4e30b7898c2fc4bd891d85f7d5da1dca, type: 3}
+  tools:
+  - {fileID: 2060438749596073939, guid: 12aae0ee2c2d7491d8d01cbf7be20033, type: 3}
+  - {fileID: 2607306187827964941, guid: 4e30b7898c2fc4bd891d85f7d5da1dca, type: 3}
+  - {fileID: 2465443867856773487, guid: 2db85e09f0d78437a8bd15904901c549, type: 3}
+  - {fileID: 4343192681231869082, guid: 59c1315d7985c450e942d1f7fcd22cf4, type: 3}
+  flooravailable: 1
+  garbageavailable: 0
+  garbagecanavailable: 0
+  toolavailable: 0
+  ifcollide: 0
+  tileposition: 030000000300000003000000030000000300000003000000030000000300000003000000030000000300000003000000
+--- !u!114 &5645308201726736105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4221741898709298760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1243a2b71c9d46742937e2aab64866be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life: 1
+  score: 100
+  sortTimes: 0
+  turnDelay: 0.1
+  time: 2000
+  collideDelay: 3
+  boardScript: {fileID: 0}
